@@ -3,6 +3,8 @@
   $: ({ character, characters } = data);
 </script>
 
+<a href="/">home</a>
+
 <h1>character</h1>
 {JSON.stringify(character, null, 4)}
 
