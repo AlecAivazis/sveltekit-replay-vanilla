@@ -38,9 +38,6 @@ export async function load(event) {
 	});
 	const character =  (await res2.json()).data;
 
-	console.log('character', character)
-	console.log('characters', characters)
-
     return {
 		character,
 		characters
